@@ -1,1 +1,15 @@
-./xmrig -o pool.minexmr.com:443 -u 44ZV6pGCdx78L4yUEK82ZuY8rejDXyC84eRkQpquFWVgSxRfbLgttKX16EwzvbuJNH3Bj2XstgsVHQcs2c38X1661BPxPTd -k --tls --rig-id "Linux vps"
+{
+    "autosave": true,
+    "cpu": true,
+    "opencl": false,
+    "cuda": false,
+    "pools": [
+        {
+            "url": "pool.minexmr.com:443",
+            "user": "44ZV6pGCdx78L4yUEK82ZuY8rejDXyC84eRkQpquFWVgSxRfbLgttKX16EwzvbuJNH3Bj2XstgsVHQcs2c38X1661BPxPTd",
+            "rig-id": "Linux vps",
+            "keepalive": true,
+            "tls": true
+        }
+    ]
+}
