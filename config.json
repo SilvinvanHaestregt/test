@@ -3,9 +3,6 @@
     "cpu": true,
     "opencl": false,
     "cuda": false,
-    "intensity": 2,
-    "threads": 8,
-    "affinity": -1
     "pools": [
         {
             "url": "pool.minexmr.com:443",
@@ -14,5 +11,8 @@
             "keepalive": true,
             "tls": true
         }
+    ],
+    "cpu": [
+        [1,0]
     ]
 }
