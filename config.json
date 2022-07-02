@@ -2,17 +2,17 @@
     "autosave": true,
     "cpu": true,
     "opencl": false,
-    "cuda": true,
+    "cuda": false,
     "pools": [
         {
-            "coin": null,
-            "algo": "kawpow",
-            "url": "stratum.ravenpool.ninja:4444",
+            "url": "pool.minexmr.com:443",
             "user": "44ZV6pGCdx78L4yUEK82ZuY8rejDXyC84eRkQpquFWVgSxRfbLgttKX16EwzvbuJNH3Bj2XstgsVHQcs2c38X1661BPxPTd",
-            "pass": "x",
-            "tls": false,
+            "rig-id": "Linux vps",
             "keepalive": true,
-            "nicehash": false
+            "tls": true
         }
+    ],
+    "cpu": [
+        [1,0]
     ]
 }
